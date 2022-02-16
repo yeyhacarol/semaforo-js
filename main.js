@@ -25,13 +25,13 @@ const desligarAutomatico = () => {
 
 const luzesAutomaticas = () => {
     if (farol == 1) {
-        luzVerde()
+        luzVermelha()
         farol++
     } else if (farol == 2) {
         luzAmarela()
         farol++
     } else if (farol == 3) {
-        luzVermelha()
+        luzVerde()
         farol++
     } else if (farol == 4) {
         luzAmarela()
